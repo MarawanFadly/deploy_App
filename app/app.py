@@ -2,7 +2,7 @@ import streamlit as st    # streamlit run app/app.py
 from google import genai  # pip install google-genai
 import os
 import sklearn
-#from dotenv import load_dotenv; load_dotenv()
+from dotenv import load_dotenv; load_dotenv()
 
 client = genai.Client(api_key= st.secrets['GEMINI_API_KEY'])
 

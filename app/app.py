@@ -6,7 +6,7 @@ from dotenv import load_dotenv; load_dotenv()
 
 client = genai.Client(api_key= st.secrets['GEMINI_API_KEY'])
 
-######client = genai.Client(api_key="AIzaSyDQMpwtvPZThspLKJ5KOEvC36vtC7avZWk")
+######client = genai.Client(api_key="AIzaSyAISEXbSgqzzQ5RODjHDw1XHZKY8uZMFko")
 st.header( 'Our First Chatbot' )
 
 user_input = st.text_area( 'Enter your text' )

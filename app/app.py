@@ -1,6 +1,5 @@
 import streamlit as st    # streamlit run app/app.py
 from google import genai  # pip install google-genai
-from dotenv import load_dotenv ;     load_dotenv()
 import os
 
 #client = genai.Client( api_key= os.getenv('GEMINI_API_KEY') )
